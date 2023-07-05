@@ -40,7 +40,6 @@ function generatePassword() {
 	if (special === true) {
 		pass = pass.concat(chars.specials); //why is it separating them by a comma?
 	}
-	console.log(pass);
 
 	//for loop selects random characters from pass array to create password
 	var password = [];
@@ -57,7 +56,6 @@ function generatePassword() {
 // Write password to the #password input  
   function writePassword() {
 	var password = generatePassword();
-	console.log(password);
   
 	var passwordText = document.querySelector('#password');
 	passwordText.value = password;
