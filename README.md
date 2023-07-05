@@ -20,6 +20,8 @@ As seen in the JavaScript file there is an event listener on the HTML button ele
 
 ![Random password generated](assets/image/generated-password-screenshot.png)
 
+The deployed site can be reached at this link: https://sillytsundere.github.io/password-maker/
+
 ## Credits
 
 Source code was obtained from [The Coding Bootcamp](https://github.com/coding-boot-camp/friendly-parakeet)
